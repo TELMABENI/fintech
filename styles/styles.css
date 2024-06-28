@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/bgrosa.png");
+    background-size: cover;
+}
+
+a {
+    color: dimgray;
+}
+
+input[type=email] {
+    background-color: dimgray;
+    color: white;
+    border-radius: 30px;
+}
+
+input[type=email]:focus {
+    background-color: lightgray;
+}
+
+input[type=password] {
+    background-color: dimgray;
+    color: white;
+    border-radius: 30px;
+}
+
+input[type=password]:focus {
+    background-color: lightgray;
+}
+
+.btn {
+    background-color: blueviolet;
+    color: white;
+}
